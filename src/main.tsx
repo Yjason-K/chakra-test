@@ -5,17 +5,19 @@ import App from './App.tsx'
 import './index.css'
 
 const testTheme = extendTheme({
-  // 변수 등록
-  // Theme Key 에 등록되는 방식
-  // space, colors, fonts, fonts, fontSizes
-  // fontWeights, lineHeights, letterSpacings, sizes
-  // breakpoints, borders, borderWidths, borderStyles
-  // radii, zIndices, blur, shadows
-  //:root {
-  //   --chakra-fontSizes-abc: '20px';
-  //   --chakra-colors-efg: '#32a852';
-  //   --chakra-space-efg: '#32a852';
-  // } 다음과 같이 css 가 생성 됩니다.
+  /**
+   *   변수 등록
+   *   Theme Key 에 등록되는 방식
+   *   space, colors, fonts, fonts, fontSizes
+   *   fontWeights, lineHeights, letterSpacings, sizes
+   *   breakpoints, borders, borderWidths, borderStyles
+   *   radii, zIndices, blur, shadows
+   *   :root {
+   *     --chakra-fontSizes-abc: '20px';
+   *     --chakra-colors-efg: '#32a852';
+   *     --chakra-space-efg: '#32a852';
+   *   } 다음과 같이 css 가 생성 됩니다.
+    */
   fontsize: {
     abc: '20px'
   },
